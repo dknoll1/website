@@ -1,0 +1,12 @@
+.myFooter {
+    position:fixed; /* Using the first answer post from https://css-tricks.com/forums/topic/how-to-make-footer-floating-at-bottom-of-page/  for this */
+	bottom: 0; /*and this*/
+	background-color: #23242a;
+	width: 100%;
+}
+
+body {
+   min-height: 400px;
+   margin-bottom: 100px;
+   clear: both;
+}

@@ -1,0 +1,33 @@
+.gbEntry {
+    padding:7px;
+    margin-bottom: 3px;
+    border: .1px solid black;
+    border-radius:7px;
+    padding-bottom:12px;
+}
+
+.htmlForm {
+    padding: 20px;
+    padding-top: 0px;
+}
+
+.fieldForm { 
+    display: inline-block; 
+    width: 18%; 
+}
+.fieldInput { 
+    display: inline-block;
+    width: 79%; 
+}
+.fieldMsg { 
+    display: inline-block;
+    width: 79%;
+}
+
+@media screen and (min-width: 800px)
+{
+    .htmlForm {
+        padding: 75px;
+        padding-top: 0px;
+    }
+}

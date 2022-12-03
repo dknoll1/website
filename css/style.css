@@ -1,0 +1,184 @@
+#hidden
+{
+	display:none;
+}
+
+.container
+{
+	background-color:rgb(10, 93, 149);
+	font-family:Verdana;	
+	display:grid;
+	margin: 0 auto;
+	width: 100%;
+	grid-template-columns:1fr;
+	grid-gap:10px;
+	grid-template-areas:
+		"main";
+		"aside";
+	padding-bottom: 20px;
+}
+body
+{
+	background-color:rgb(70, 93, 149);
+	min-height:100vh;
+	font-family:"Lato", "Arial", "Helvetica" ;
+	font-size:14px;
+	line-height:1em;
+}
+
+#main div
+{
+	background-color:rgb(204, 219, 210);
+	grid-area:main;
+	border: 3px solid black;
+	border-radius: 25px;
+	padding: 10px 10px 10px 10px;
+	margin: 5px 5px 5px 5px;
+}
+
+#aside div
+{
+	border: 3px solid black;
+	border-radius:25px 25px 25px 25px;
+	padding: 10px;
+	background-color:rgb(204, 219, 210);
+	grid-area:aside;
+	padding: 10px 0px 10px 10px;
+	margin: 5px 0px 5px 0px;
+}
+
+a:link {
+  color: rgb(70, 93, 149);
+}
+
+a:visited {
+	font-style: italic;
+	color: maroon;
+}
+
+a:hover {
+  color: blue;
+}
+
+a:active {
+  color: rgb(70, 93, 149);
+}
+
+footer {
+	background-color:#121212;	
+	opacity:.8;
+	margin: auto;
+	position:fixed;
+	text-align:center;
+	width:80%;
+	bottom: 0%;
+	left: 10%;
+	font-size:12px;
+	color:white;
+	border: 3px solid black;
+	border-radius:25px 25px 25px 25px;
+}
+
+
+footer a:link {
+	  color: white;
+	}
+
+footer a:visited {
+	color: white;
+	}
+
+footer a:hover {
+	  color: white;
+	}
+
+footer a:active {
+	  color: white;
+	}
+
+	
+@media only screen and (min-width: 900px)
+{
+	#hidden
+	{
+		display:none;
+	}
+	body
+	{
+		background-color:rgb(70, 93, 149);
+		min-height:100vh;
+		font-family:"Lato", "Arial", "Helvetica" ;
+		font-size:14px;
+		line-height:1em;
+	}
+
+	.container
+	{
+		background-color:rgb(70, 93, 149);
+		font-family:Verdana;	
+		display:grid;
+		margin: 0 auto;
+		width: 100%;
+		grid-template-columns:1.5fr 1fr;
+		grid-template-rows:1fr 1fr;
+		grid-gap:10px;
+		grid-template-areas:
+			"main	aside";
+			"main	aside";
+	}
+
+	#main div
+	{
+		background-color:rgb(204, 219, 210);
+		grid-area:main;
+		border: 3px solid black;
+		border-radius: 25px;
+		padding: 10px 10px 10px 10px;
+		margin: 5px 0px 5px 0px;
+	}
+
+	#aside div
+	{
+		border: 3px solid black;
+		border-radius:25px 25px 25px 25px;
+		padding: 10px;
+		background-color:rgb(204, 219, 210);
+		grid-area:aside;
+		padding: 10px 0px 10px 10px;
+		margin: 5px 0px 5px 0px;
+	}
+
+	a:link {
+	  color: rgb(70, 93, 149);
+	}
+
+	a:visited {
+		font-style: italic;
+		color: maroon;
+	}
+
+	a:hover {
+	  color: blue;
+	}
+
+	a:active {
+	  color: rgb(70, 93, 149);
+	}
+
+	footer {
+		background-color:#121212;	
+		opacity:.8;
+		margin: auto;
+		position:fixed;
+		text-align:center;
+		width:80%;
+		bottom: 1%;
+		left: 10%;
+		font-size:12px;
+		color:white;
+		border: 3px solid black;
+		border-radius:25px 25px 25px 25px;
+		padding-bottom:10px;
+		padding-top:10px;
+	}
+}

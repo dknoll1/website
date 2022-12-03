@@ -1,0 +1,30 @@
+.centered {
+    text-align:center;
+}
+
+.right-justified {
+    text-align:right;
+}
+
+.boldish {
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 44px;
+    font-weight: bold;
+}
+
+.paddington {
+    padding: 20px;
+    padding-top:0px;
+}
+
+@media screen and (min-width: 800px)
+{
+    
+    .paddington {
+        padding: 75px;
+        padding-top:0px;
+    }
+}
